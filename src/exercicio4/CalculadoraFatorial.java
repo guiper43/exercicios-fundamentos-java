@@ -2,8 +2,8 @@ package exercicio4;
 
 import java.util.Scanner;
 
-public class Fatorial {
-    public void verificaFatorial() {
+public class CalculadoraFatorial {
+    public void verificarFatorial() {
         System.out.println("digite o número que quer que seja fatorado ");
         Scanner teclado = new Scanner(System.in);
         int numero = teclado.nextInt();

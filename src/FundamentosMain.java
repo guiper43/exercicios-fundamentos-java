@@ -1,9 +1,9 @@
-import exercicio1.Pares;
-import exercicio2.Nomes;
-import exercicio3.Acumulo;
-import exercicio4.Fatorial;
-import exercicio5.Vogais;
-import exercicio6.Media;
+import exercicio1.VerificadorParidade;
+import exercicio2.BuscadorNomesPorInicial;
+import exercicio3.CalculadoraAcumulos;
+import exercicio4.CalculadoraFatorial;
+import exercicio5.BuscadorVogais;
+import exercicio6.CalculadoraMedia;
 
 import java.util.Scanner;
 
@@ -14,29 +14,31 @@ public class FundamentosMain {
         int option = teclado.nextInt();
         switch (option) {
             case 1:
-                Pares number = new Pares();
-                number.verificaPar();
+                VerificadorParidade numero = new VerificadorParidade();
+                numero.verificarNumeros();
                 break;
             case 2:
-                Nomes nomes = new Nomes();
-                nomes.verificaNomes();
+                BuscadorNomesPorInicial nome = new BuscadorNomesPorInicial();
+                nome.verificarNomes();
                 break;
             case 3:
-                Acumulo acumulo = new Acumulo();
-                acumulo.acumulador();
+                CalculadoraAcumulos totalAcumulado = new CalculadoraAcumulos();
+                totalAcumulado.calcularAcumulo();
                 break;
             case 4:
-                Fatorial fator = new Fatorial();
-                fator.verificaFatorial();
+                CalculadoraFatorial fator = new CalculadoraFatorial();
+                fator.verificarFatorial();
                 break;
             case 5:
-                Vogais letras = new Vogais();
+                BuscadorVogais letras = new BuscadorVogais();
                 letras.acharVogais();
                 break;
             case 6:
-                Media notas = new Media();
-notas.calcularMedia();
+                CalculadoraMedia notas = new CalculadoraMedia();
+                notas.calcularMedia();
         }
-
+teclado.close();
     }
+
+
 }

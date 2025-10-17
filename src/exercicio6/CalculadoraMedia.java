@@ -2,7 +2,7 @@ package exercicio6;
 
 import java.util.Scanner;
 
-public class Media {
+public class CalculadoraMedia {
     public void calcularMedia() {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite a primeira nota a ser calculada.");

@@ -3,8 +3,8 @@ package exercicio2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Nomes {
-    public void verificaNomes() {
+public class BuscadorNomesPorInicial {
+    public void verificarNomes() {
         List<String> listaNomes = new ArrayList<>();
         listaNomes.add("guilherme");
         listaNomes.add("gabriel");

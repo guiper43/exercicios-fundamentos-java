@@ -2,7 +2,7 @@ package exercicio5;
 
 import java.util.Scanner;
 
-public class Vogais {
+public class BuscadorVogais {
     public void acharVogais() {
         Scanner teclado = new Scanner(System.in);
         System.out.println("dgite uma fraze para ser contada.");
