@@ -1,8 +1,12 @@
 package exercicio5;
 
+import java.util.Scanner;
+
 public class Vogais {
     public void acharVogais() {
-        String texto = "abensoado seja meu dia e minha tragetoria";
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("dgite uma fraze para ser contada.");
+        String texto = teclado.nextLine();
         int contador = 0;
         String vogais = "aeiou";
         for (int i = 0; i < texto.length(); i++) {

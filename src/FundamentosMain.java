@@ -3,13 +3,14 @@ import exercicio2.Nomes;
 import exercicio3.Acumulo;
 import exercicio4.Fatorial;
 import exercicio5.Vogais;
+import exercicio6.Media;
 
 import java.util.Scanner;
 
 public class FundamentosMain {
     public static void main(String[] args) {
-        System.out.println("digite a opção para executar o método correspondente a o exercicio solicitado.");
         Scanner teclado = new Scanner(System.in);
+        System.out.println("digite a opção para executar o método correspondente a o exercicio solicitado.");
         int option = teclado.nextInt();
         switch (option) {
             case 1:
@@ -31,6 +32,10 @@ public class FundamentosMain {
             case 5:
                 Vogais letras = new Vogais();
                 letras.acharVogais();
+                break;
+            case 6:
+                Media notas = new Media();
+notas.calcularMedia();
         }
 
     }
