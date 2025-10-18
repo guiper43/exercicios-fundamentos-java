@@ -5,6 +5,7 @@ import exercicio4.CalculadoraFatorial;
 import exercicio5.BuscadorVogais;
 import exercicio6.CalculadoraMedia;
 import exercicio7.ConversorTemperatura;
+import exercicio8.Pessoa;
 
 import java.util.Scanner;
 
@@ -42,6 +43,20 @@ public class FundamentosMain {
                 ConversorTemperatura temperatura = new ConversorTemperatura();
                 temperatura.exibeConvercao();
                 break;
+            case 8:
+                Pessoa p1 = new Pessoa();
+                p1.setNome("Guilherme");
+                p1.setIdade(22);
+                p1.setCidade("Porto Alegre");
+                p1.exibirDados();
+                Pessoa p2 = new Pessoa();
+                p2.setNome("João");
+                p2.setIdade(35);
+                p2.setCidade("Curitiba");
+                p2.exibirDados();
+                break;
+            case 9:
+
         }
         teclado.close();
     }
