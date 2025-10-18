@@ -6,6 +6,7 @@ import exercicio5.BuscadorVogais;
 import exercicio6.CalculadoraMedia;
 import exercicio7.ConversorTemperatura;
 import exercicio8.Pessoa;
+import exercicio9.CalculadoraProdutos;
 
 import java.util.Scanner;
 
@@ -56,7 +57,7 @@ public class FundamentosMain {
                 p2.exibirDados();
                 break;
             case 9:
-
+                new CalculadoraProdutos().executarOperacao();
         }
         teclado.close();
     }
