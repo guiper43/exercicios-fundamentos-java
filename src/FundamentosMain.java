@@ -4,6 +4,7 @@ import exercicio3.CalculadoraAcumulos;
 import exercicio4.CalculadoraFatorial;
 import exercicio5.BuscadorVogais;
 import exercicio6.CalculadoraMedia;
+import exercicio7.ConversorTemperatura;
 
 import java.util.Scanner;
 
@@ -36,8 +37,13 @@ public class FundamentosMain {
             case 6:
                 CalculadoraMedia notas = new CalculadoraMedia();
                 notas.calcularMedia();
+                break;
+            case 7:
+                ConversorTemperatura temperatura = new ConversorTemperatura();
+                temperatura.exibeConvercao();
+                break;
         }
-teclado.close();
+        teclado.close();
     }
 
 
