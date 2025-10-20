@@ -69,7 +69,8 @@ public class FundamentosMain {
                 operacao.transferir(conta1, conta2, new BigDecimal("300.0"));
                 operacao.exibeSaldo(conta2);
                 break;
-
+            default:
+                System.out.println("valor inválido digitado.");
         }
         teclado.close();
     }
