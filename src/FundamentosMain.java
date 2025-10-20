@@ -1,4 +1,6 @@
 import exercicio1.VerificadorParidade;
+import exercicio10.ContaBanco;
+import exercicio10.OperacaoConta;
 import exercicio2.BuscadorNomesPorInicial;
 import exercicio3.CalculadoraAcumulos;
 import exercicio4.CalculadoraFatorial;
@@ -8,6 +10,7 @@ import exercicio7.ConversorTemperatura;
 import exercicio8.Pessoa;
 import exercicio9.CalculadoraProdutos;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class FundamentosMain {
@@ -58,6 +61,15 @@ public class FundamentosMain {
                 break;
             case 9:
                 new CalculadoraProdutos().executarOperacao();
+                break;
+            case 10:
+                ContaBanco conta1 = new ContaBanco("Guilherme", new BigDecimal("100.00"));
+                ContaBanco conta2 = new ContaBanco("Helen", new BigDecimal("5890.00"));
+                OperacaoConta operacao = new OperacaoConta();
+                operacao.transferir(conta1, conta2, new BigDecimal("300.0"));
+                operacao.exibeSaldo(conta2);
+                break;
+
         }
         teclado.close();
     }
