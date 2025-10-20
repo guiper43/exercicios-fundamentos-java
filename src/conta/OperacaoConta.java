@@ -1,4 +1,4 @@
-package exercicio10;
+package conta;
 
 import java.math.BigDecimal;
 
@@ -12,7 +12,7 @@ public class OperacaoConta {
 
     public boolean sacar(ContaBanco conta, BigDecimal valor) {
         if (conta.getSaldo().compareTo(BigDecimal.ZERO) <= 0) {
-            System.out.println("O seu saldo está negativo, você não pode realizar saques.");
+            System.out.println("O seu saldo está negati     vo, você não pode realizar saques.");
             return false;
         } else if (valor.compareTo(BigDecimal.ZERO) <= 0) {
             System.out.println("Você digitou um valor não permitido, negativo ou igual a 0.");

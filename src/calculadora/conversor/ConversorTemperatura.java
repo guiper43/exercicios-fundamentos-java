@@ -1,4 +1,4 @@
-package exercicio7;
+package calculadora.conversor;
 
 import java.util.Scanner;
 

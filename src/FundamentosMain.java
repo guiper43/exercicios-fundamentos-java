@@ -1,14 +1,14 @@
-import exercicio1.VerificadorParidade;
-import exercicio10.ContaBanco;
-import exercicio10.OperacaoConta;
-import exercicio2.BuscadorNomesPorInicial;
-import exercicio3.CalculadoraAcumulos;
-import exercicio4.CalculadoraFatorial;
-import exercicio5.BuscadorVogais;
-import exercicio6.CalculadoraMedia;
-import exercicio7.ConversorTemperatura;
-import exercicio8.Pessoa;
-import exercicio9.CalculadoraProdutos;
+import calculadora.pares.VerificadorParidade;
+import conta.ContaBanco;
+import conta.OperacaoConta;
+import buscador.iniciais.BuscadorNomesPorInicial;
+import calculadora.acumulos.CalculadoraAcumulos;
+import calculadora.fatoriais.CalculadoraFatorial;
+import buscador.vogais.BuscadorVogais;
+import calculadora.media.CalculadoraMedia;
+import calculadora.conversor.ConversorTemperatura;
+import pessoa.Pessoa;
+import carrinho.produtos.CalculadoraProdutos;
 
 import java.math.BigDecimal;
 import java.util.Scanner;

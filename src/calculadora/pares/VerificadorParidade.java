@@ -1,4 +1,4 @@
-package exercicio1;
+package calculadora.pares;
 
 import java.util.Scanner;
 

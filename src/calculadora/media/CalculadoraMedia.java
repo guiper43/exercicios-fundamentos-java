@@ -1,4 +1,4 @@
-package exercicio6;
+package calculadora.media;
 
 import java.util.Scanner;
 

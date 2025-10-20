@@ -1,4 +1,4 @@
-package exercicio3;
+package calculadora.acumulos;
 
 public class CalculadoraAcumulos {
     public void calcularAcumulo() {

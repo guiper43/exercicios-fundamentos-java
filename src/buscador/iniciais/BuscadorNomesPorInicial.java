@@ -1,4 +1,4 @@
-package exercicio2;
+package buscador.iniciais;
 
 import java.util.ArrayList;
 import java.util.List;
